@@ -1,0 +1,2 @@
+# GullyFormer
+该模型专门为侵蚀沟提取任务设计，以DeeplabV3+模型架构为基础，使用SegFormer作为主干网络，并且将ASPP模块换成作者的HybridASPP模块，同时兼具全局和局部信息提取，提高模型侵蚀沟提取任务中的表现
