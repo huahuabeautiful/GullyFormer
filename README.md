@@ -23,6 +23,7 @@
 ├── test_model.py        # 模型评估脚本，输出 mIoU、F1 等多项宏平均指标及柱状图可视化
 └── predict_large_image.py # 大图推理脚本，执行分块预测、Hanning窗加权及 Shapefile 生成
 ```
+<img width="1890" height="1758" alt="图片11" src="https://github.com/user-attachments/assets/467c2720-dad6-4239-89d9-6ac996962773" />
 
 ---
 
@@ -63,6 +64,11 @@ python test_model.py
 程序将输出背景与目标类的 IoU、Precision、Recall (PA) 和 F1-score 报告，并将假阳性、假阴性的对比可视化图像及评价指标柱状图保存在结果文件夹中。
 
 ---
+<img width="996" height="255" alt="image" src="https://github.com/user-attachments/assets/24e15e88-3174-4321-88f9-eda543987c11" />
+
+
+<img width="1778" height="1960" alt="图片13" src="https://github.com/user-attachments/assets/0e25580b-5897-4baa-abc0-9fb3f3dc0169" />
+
 
 ## 🌍 大图推理与矢量化 (Large Image Inference)
 
