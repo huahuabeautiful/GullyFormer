@@ -21,7 +21,9 @@
 ├── training_loop.py     # 训练核心逻辑，包含 FlexibleLoss、指标计算及 TensorBoard 日志记录
 ├── main.py              # 模型训练主入口，管理超参数、随机种子、损失函数开关及文件夹命名
 ├── test_model.py        # 模型评估脚本，输出 mIoU、F1 等多项宏平均指标及柱状图可视化
-└── predict_large_image.py # 大图推理脚本，执行分块预测、Hanning窗加权及 Shapefile 生成
+├── predict_large_image.py # 大图推理脚本，执行分块预测、Hanning窗加权及 Shapefile 生成
+└── SegFormer            #存放模型的预训练权重，这里作者使用的b0版本
+
 ```
 <img width="1890" height="1758" alt="图片11" src="https://github.com/user-attachments/assets/467c2720-dad6-4239-89d9-6ac996962773" />
 
